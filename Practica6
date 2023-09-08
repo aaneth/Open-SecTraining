@@ -1,0 +1,27 @@
+package Prog1;
+import java.util.Scanner;
+public class Enunciado1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double rad,longi,area;
+		double pi = Math.PI;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Ingrese el valor del radio de una circunferencia: ");
+		rad = sc.nextDouble();
+		
+		//Longitud de una circunferencia 
+		longi = 2 * pi* rad; 
+		
+		// Area de una circunferencia 
+		area = pi * rad * rad;
+		
+		System.out.println("La longitud de una circunferencia es:  " + longi );
+		System.out.println("El area de una circunferencia es: " + area);
+		 
+		
+		
+	}
+
+}
